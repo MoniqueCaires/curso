@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <main class="conteudo">
+    <div class="banner">
+        <video autoplay loop muted>
+            <source src="/videos/menina-tocando.mp4" type="video/mp4">
+        </video> 
+        <div class="conteudo">
         <h1 class="titulo"> Curso de Piano</h1>
         <h2 class="subtitulo"> DO 0 AO PRO </h2>
         <hr class="linha">
@@ -17,14 +21,15 @@
             desde o básico até técnicas avançadas, em um ambiente acolhedor e inspirador. Venha fazer parte dessa jornada musical!
         </p>
         <hr class="linha">
-        <video poster="/imagens/aluno-professor.jpg" class="meu-video" autoplay loop muted>
+        <!-- <video poster="/imagens/aluno-professor.jpg" class="meu-video" autoplay loop muted>
             <source src="videos/menina-tocando.mp4" type="video/mp4">
-        </video>
+        </video> -->
         <a href="comprar.html" class="botao-comprar">COMPRAR</a>
         <audio id="som">
             <source src="/audios/Miley Cyrus - Wrecking Ball (minus).mp3" type="audio/mp3">
         </audio>
-    </main>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
